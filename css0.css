@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav {
+	width: 85%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #808080;
+	padding-left: 120px;
+}
+nav ul li {
+	width: 20%;
+	height: auto;
+	float: left;
+	list-style: none;
+	text-align: center;
+	color: black;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul {
+	display:  none;
+}
+nav ul li ul li {
+	width: 100%;
+	height: 30px;
+	border: 1px;
+	color: white;
+	background-color: black;
+}
+.atas {
+	width: 100%;
+	height: 50pt;
+	text-align:left;
+	background:url(Navbar.png);
+}
+
+.tengah {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align:left;
+	background: url(2.png);
+}
+.bawah{
+	width: 100%;
+	height: 75pt;
+	margin: 0;
+	text-align:left;
+	background: url(Slide4.png);
+}
+.page {
+	width:940px;
+	margin:0 auto;
+	background:url(slide3.png);
+	padding:20px;
+}
+.bawahTengah {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	color: #FFFFFF; /*warna putih*/
+}
+.bawahKiri {
+	width: 300px;
+	margin:auto;
+	float: left;
+	color: #FFFFFF;
+	padding: 15px;
+}
+/* Pertol Berita */
+.page2per3 {
+	width: 540px;
+	list-style: none;
+	background:url(Slide1.png);
+	padding: 20px;
+	float: left;
+}
+.page1per3 {
+	width: 300px;
+	background:url(Slide1.png);
+	padding: 20px;
+	float: right;
+	list-style: none;
+}
+.garisBerita {
+	width: 580px;
+	color: black;
+}
+.berikutnyaBerita {
+	width: 60px;
+	height: 60px;
+	padding-left: 35%;
+	padding-top: 45%;
+}
+.berikutnyaBerita ul li {
+	list-style: none;
+}
+/* Portal Dokumentasi */
+.pageDokumenKiri {
+	width: 420px;
+	list-style: none;
+	background:url(Slide1.png);
+	padding: 20px;
+	float: left;
+}
+.pageDokumenKanan {
+	width: 420px;
+	background:url(Slide1.png);
+	padding: 20px;
+	float: right;
+	list-style: none;
+}
+.berikutnyaDokumen {
+	width: 60px;
+	height: 60px;
+	padding-left: 47%;
+	padding-top: 45%;
+}
+.berikutnyaDokumen ul li {
+	list-style: none;

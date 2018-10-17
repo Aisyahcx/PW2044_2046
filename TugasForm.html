@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Pendaftaran</title>
+	<link rel="stylesheet" type="text/css" href="css0.css">
+</head>
+<body>
+	<div class ="atas">
+		<br>
+		<nav>
+			<ul>
+				<a href="file:///C:/Users/asus/Documents/Sublime%20text/Tampilan%20awal%20(COBA).html"><li><b>HOME</b></li></a>
+				<li><b>PORTAL</b>
+					<ul>
+						<a href="file:///C:/Users/asus/Documents/Sublime%20text/Portal%20Berita%20(COBA).html"><li><b>BERITA</b></li></a>
+						<a href="file:///C:/Users/asus/Documents/Sublime%20text/Portal%20Dokumentasi.html"><li><b>DOKUMENTASI</b></li></a>
+					</ul>
+				</li>
+				<li><b>ORMAWA</b>
+					<ul>
+						<a href=""><li><b>BPM</b></li></a>
+						<a href=""><li><b>HIMASIF</b></li></a>
+						<a href=""><li><b>UKM LAOS</b></li></a>
+						<a href=""><li><b>HIMATIF</b></li></a>
+						<a href=""><li><b>UKM BINARY</b></li></a>
+						<a href=""><li><b>UKM-O MACO</b></li></a>
+						<a href=""><li><b>UKM BALWANA</b></li></a>
+						<a href=""><li><b>UKM ETALASE</b></li></a>
+					</ul>
+				</li>
+				<a href="file:///C:/Users/asus/Documents/Sublime%20text/Kota%20Saran.html"><li><b>KOTAK SARAN</b></li></a>
+				<a href="#"><li><form method="POST" action="proses.php">
+									  <input type="text" name="nama" value="Pencarian"></td>
+								  	<td><button type="button"><b>CARI</b></button></td>
+									</form></li></a>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="running text">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+			Selamat datang di BEM Fakultas Ilmu Komputer Universitas Jember
+		</marquee>
+    </div>
+
+	<div class="tengah">
+		<div class="page">
+		<h4 align="center">FORMULIR PENDAFTARAN<br>
+			PENGURUS BADAN EKSEKUTIF MAHASISWA (BEM)<br>
+			FAKULTAS ILMU KOMPUTER<br>
+			UNIVERSITAS JEMBER<br>
+			2018
+		</h4>
+		<hr size="3">
+		
+		<br>
+		<p align="center">MOHON DIISI</p>
+		<p align="center"><form method="POST" action="proses.php">
+			<table border="0" width="600">
+				<tr>
+				  	<td><label for="nama">Nama</label></td>
+				  	<td><input type="text" name="nama" id="nama"></td>
+			  	</tr>
+			  	<tr>
+				  	<td><label for="nim">NIM</label></td>
+				  	<td><input type="text" name="nim" id="nim" maxlength="12"></td>
+			  	</tr>
+			  	<tr>
+				  	<td><label for="tgl">Tempat / Tgl. Lahir</label></td>
+				  	<td><input type="text" name="tgl" id="tgl" size="50"></td>
+			  	</tr>
+			  	<tr>
+			      	<td><label for="jenkel">Jenis kelamin</label></td>
+			      	<td><input type="radio" name="jenkel" id="jenkel" value="L">Laki-laki<br>
+			          	<input type="radio" name="jenkel" id="jenkel" value="P">Perempuan</td>
+			    </tr>
+
+			  	<tr>
+				  	<td><label for="prodi">Jurusan / Prodi</label></td>
+			      	<td><select name="prodi" id="prodi">
+				            <option value="si">Sistem Informasi</option>
+				            <option value="ti">Teknologi Informasi</option>
+				            <option value="if">Informatika</option>
+			          	</select></td>
+			  	</tr>
+			  	<tr>
+				  	<td><label for="ipk">IPK</label></td>
+				  	<td><input type="text" name="ipk" id="ipk" maxlength="4"></td>
+			  	</tr>
+			  	<tr>
+			      	<td><label for="alamatAsal">Alamat Asal</label></td>
+			      	<td><textarea rows="1" cols="40"
+			          	name="alamatAsal" id="alamatAsal"></textarea></td>
+			    </tr>
+			    <tr>
+			      	<td><label for="alamatkos">Alamat Kos<br><sup>(di Jember)</sup></label></td>
+			      	<td><textarea rows="1" cols="40"
+			          	name="alamatkos" id="alamatkos"></textarea></td>
+			    </tr>
+			    <tr>
+			      	<td><label for="agama">Agama</label></td>
+			      	<td><select name="agama" id="agama" size="5">
+			            <option value="a">Islam</option>
+			            <option value="b">Kristen</option>
+			            <option value="c">Hindu</option>
+			            <option value="d">Budha</option>
+			            <option value="e">Khonghucu</option>
+			          	</select></td></tr>
+			    <tr>
+				  	<td><label for="nohp">No. Handphone</label></td>
+				  	<td><input type="text" name="nohp" id="nohp" maxlength="12"></td>
+			  	</tr>
+			  	<tr>
+				  	<td><label for="email">E-mail</label></td>
+				  	<td><input type="text" name="email" id="email"></td>
+			  	</tr>
+			  	<tr>
+			      	<td><label for="hobi">Hobi</label><br><sup>(bisa lebih dari satu)</sup></td>
+			      	<td><select name="hobi" id="hobi" size="3" multiple>
+			            <option value="1">Olahraga</option>
+			            <option value="2">Seni</option>
+			            <option value="3">Musik</option>
+			            <option value="4">Baca Buku</option>
+			            <option value="5">Main Game</option>
+			            <option value="6">Lain-lain</option>
+		      			</select></td>
+		  		</tr>
+		  		<tr>
+			      	<td><label for="motto">Motto</label></td>
+			      	<td><textarea rows="2" cols="40"
+			          	name="motto" id="motto"></textarea></td>
+			    </tr>
+				<tr>
+				  	<td><label for="pendidikan">Pendidikan Terakhir</label></td>
+				  	<td><select name="pendidikan" id="pendidikan">
+				            <option value="sma">SMA / MA</option>
+				            <option value="smk">SMK / MK</option>
+			          	</select>
+				  	<input type="text" name="pendidikan" id="pendidikan"><sup>nama sekolah</sup></td>
+			  	</tr>
+				<tr>
+			      	<td><label for="pengalaman">Pengalaman Organisasi<br><sup>(selama kuliah)</sup></label></td>
+			      	<td><textarea rows="2" cols="40"
+			          	name="pengalaman" id="pengalaman"></textarea></td>
+			    </tr>
+			    <tr>
+			      	<td><label for="skill">Softskill yang Dimiliki<br><sup>(media / teknologi)</sup></label></td>
+			      	<td><textarea rows="2" cols="40"
+			          	name="skill" id="skill"></textarea></td>
+			    </tr>
+			  </table>
+
+		  	<br>
+		  	<p align="center"><button type="submit" align="center">Kirim</button>
+			<button type="reset" align="center">Reset</button></p>
+
+			</form></p>
+		</div>
+	</div>
+	<div class="bawah">
+		<ul>
+			<li>
+				<div class="bawahKiri">
+					Follow us on : <br>
+					<a href=""><img src="fb.png" width="16%"></a> <a href=""><img src="Ig.png" width="20%"><br></a>
+					© Divisi Litbang Kabinet Apta Darpa
+				</div>
+			</li>
+			<li>
+				<div class="bawahTengah">
+					<b>Address : </b><br>
+					Jl. Kalimantan No. 37, Kampus Tegalboto, Jember,<br>
+					Sumbersari, Kabupaten Jember<br>
+					2018
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html> 
